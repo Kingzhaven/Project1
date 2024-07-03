@@ -1,0 +1,70 @@
+  body {
+    background-image: url(./backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300vh;
+    background-blend-mode: darken;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .contact-form h2 {
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: black;
+  }
+
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #b1b4b8;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: gray;
+  }
+
+  .link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
