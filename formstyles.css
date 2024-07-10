@@ -1,70 +1,56 @@
-  body {
-    background-image: url(./backgroundimage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 300vh;
-    background-blend-mode: darken;
-  }
+body {
+  background-image: url('./backgroundimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+}
 
-  .contact-form {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
+.bordered {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
 
-  .contact-form h2 {
-    margin-bottom: 10px;
-    color: black;
-    text-align: center;
-  }
+.contact-form h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
 
-  .form-group {
-    margin-bottom: 15px;
-    text-align: center;
-    align-items: center;
-  }
+.form-group {
+  margin-bottom: 15px;
+}
 
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    text-align: center;
-    color: black;
-  }
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
 
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    color: black;
-  }
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-  .form-group button {
-    padding: 10px 20px;
-    background-color: #b1b4b8;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.form-group button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  .form-group button:hover {
-    background-color: gray;
-  }
-
-  .link {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    color: white;
-    margin-right: 15px;
-    text-decoration: none;
-  }
-
-  .link:hover {
-    text-decoration: underline;
-  }
+.form-group button:hover {
+  background-color: darkgray;
+}

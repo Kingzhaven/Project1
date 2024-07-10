@@ -10,29 +10,6 @@ body {
     color: #333;
 }
 
-.header {
-    text-align: center;
-    padding: 20px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.link {
-    font-size: 18px;
-    color: black;
-    text-decoration: underline;
-}
-
-.link:hover {
-    text-decoration: underline;
-    background-color: gray;
-}
-
 .bordered {
     padding: 20px;
     margin: 20px auto;
@@ -50,7 +27,7 @@ body {
 .p1 {
     font-size: 24px;
     color: black;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .contact-info {
